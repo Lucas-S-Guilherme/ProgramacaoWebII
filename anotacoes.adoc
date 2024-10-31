@@ -1,0 +1,41 @@
+= Anotações aulas
+
+Utilizar no trabalho:
+
+    - Nestjs
+    - Bootstrap
+
+
+== 30/10/24
+
+MVC
+
+*Controler* - Recebe requisições (requests). Tem definição das rotas que recebe as requests. Acessa o Model, pode trabalhar validação de dados.
+
+Model - Representação dos entidades do bd. E retorna para o controller. Possuí cadama interna de services e models. A camada de serviço acessa o BD.
+
+View - Recebe retorno do controller e apresenta resposta.
+
+=== Estrutura do projeto
+
+*/public/views*
+
+    local onde fica o .html, .hbs
+
+    De
+
+*--/src*
+    |_/commom
+    |- / 
+
+=== Estudar
+
+* MVC
+
+* formato .hbs
+
+* Decorator, função chamada com @
+
+=== adicionar página sobre, depois fazer formulário de contato e exibir na página
+
+
